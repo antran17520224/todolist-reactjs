@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+label{
+  font-weight: 600;
+}
+.pd-30{
+  padding-bottom: 15px;
+}
+.btn-warning{
+  color : #fff
+}
+tbody .text-center{
+  color: #fff;
+}
+td span{
+  padding: 5px;
+  border-radius: 5px;
+}
+.panel-title{
+  font-size: 24px;
+  background-color: #2facac;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.panel-title span{
+  cursor: pointer;
+}
+.fa-times-circle{
+  float: right;
+}
+.sort_selected::after{
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+
+}
